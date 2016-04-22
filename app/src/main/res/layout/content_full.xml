@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullImage"
+        android:src="@mipmap/ic_launcher"
+        android:minWidth="200dp"
+        android:minHeight="200dp"
+        android:adjustViewBounds="true"
+        />
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/fullImage"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullGenres"
+
+
+        android:text="Title"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullAlbums"
+        android:layout_below="@+id/fullGenres"
+        android:text="Albums"
+        android:padding="3dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullInfo"
+        android:layout_below="@+id/fullAlbums"
+        android:text="Discography"
+        android:padding="5dp"
+
+        />
+</RelativeLayout>
+</RelativeLayout>
+</ScrollView>
